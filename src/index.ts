@@ -80,3 +80,16 @@
     name  : "mak",
    }
 
+
+   ///// type Asertion
+
+   let cid : any = 3;
+   let cidnumber  = cid as number;
+
+
+    //// function
+    function addNum(a : number, b: number) : number {
+        return a + b;
+    }
+    addNum(5,9);
+    console.log(addNum);
