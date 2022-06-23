@@ -61,7 +61,22 @@
     }
 
 
+    //// object 
 
+    const user = {
+        id : 1,
+        name : "anas",
+        check : false,
+    }
 
-
+    ///// object contains only number and string
+    type user1 = {
+        id: number,
+        name : string,
+    } 
+    
+   const User : user1= {
+    id : 2,
+    name  : "mak",
+   }
 
