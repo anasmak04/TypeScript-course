@@ -93,3 +93,32 @@
     }
     addNum(5,9);
     console.log(addNum);
+
+    //// Interfaces
+
+    interface UseerInterface  {
+        id : number,
+        name : boolean,
+        age ?: number,
+    }
+
+    const useer : UseerInterface = {
+        id : 1,
+        name : true,
+    }
+
+    //////// clqsse
+
+   class Persson {
+    private id : number
+    private name : String
+
+    constructor(id : number , name : String) {
+        this.id = id
+        this.name = name;
+    }
+
+
+   }
+
+   const Person = new Persson(1,"anas");
