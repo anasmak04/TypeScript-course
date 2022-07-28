@@ -1,19 +1,14 @@
 "use strict";
-let age = 40;
-let company = "codersanas";
-let check = true;
-let all = "hello";
-let arr = [1, "hello", false];
-let arr2 = [2];
-arr2.push(3);
-let person = [1, "hi", true];
-let employe;
-employe = [
-    [1, "anas"],
-    [2, "bilal"],
-    [3, "ayoub"],
-];
-let pid;
-pid = "hello";
-console.log(pid);
+let num = 6;
+console.log(num);
+let Etat = false;
+let msg;
+msg = "Hello";
+let arr;
+arr = [5, 6, 7];
+arr.push(99);
+console.log(arr);
+let myMsg = ["hello", "world"];
+let bool = [true, false];
+let all = ["Mak", true];
 //# sourceMappingURL=index.js.map
