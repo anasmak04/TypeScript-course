@@ -4,7 +4,7 @@
 
 // variable number 
 let num : number = 6;
-console.log(num);
+// console.log(num);
 
 // variable boolean
 let Etat : boolean = false;
@@ -20,7 +20,7 @@ msg = "Hello"
 let arr : number [];
 arr = [5,6,7]
 arr.push(99)
-console.log(arr)
+// console.log(arr)
 
 /// array contain just string
 let myMsg : string[] = ["hello","world"];
@@ -33,17 +33,54 @@ let all : any[] = ["Mak",true]
 
 // array tuple
 let tuple : [string,number,boolean] = ["anas",21,true]
-console.log(tuple)
+// console.log(tuple)
 
 // work with unions and Enum
 
 // union
 let ids : number | string;
 ids = 5
-console.log(ids);
+// console.log(ids);
 
 let union_arr : [number | string] = [44];
-console.log(union_arr)
+// console.log(union_arr)
+
+enum direction {
+    up = 7,
+    left,
+    right,
+    bottom
+}
+
+console.log(direction.up);
+
+// work with objects
+
+const obj : {
+    id : number,
+    name : string
+} =  {
+    id : 1,
+    name : "anasmak04"
+}
+
+///////////////...OR..//////////////
+
+type obj =  {
+    id : number,
+    lastname : string
+}
+
+
+const object : obj  =  {
+    id : 1,
+    lastname : "Anasmak04"
+}
+
+
+
+// wrok with functions in typescript
+
 
 
 
