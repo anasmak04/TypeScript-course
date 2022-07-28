@@ -65,3 +65,13 @@ var userInterface = {
 var add = function (x, y) { return x + y; };
 var sum = function (x, y) { return x * y; };
 console.log(add(1, 2), sum(2, 2));
+// work with class
+var Person = /** @class */ (function () {
+    function Person(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+    return Person;
+}());
+var Per = new Person(1, 'Bilal');
+console.log(Per);

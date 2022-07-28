@@ -117,8 +117,18 @@ const sum : MathInter = (x : number, y :number) : number => x * y
 console.log(add(1,2),sum(2,2));
 
 
+// work with class
 
+class Person {
+    id : number
+    name : string
 
+    constructor(id : number,name:string) {
 
+        this.id = id
+        this.name = name
 
+        }
+}
 
+const Per = new Person(1,'Bilal');
