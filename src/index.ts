@@ -107,6 +107,16 @@ interface dataInter  {
     age ?: number 
 }
 
+//// interface with function
+
+interface MathInter {
+    (x : number, y :number) : number
+}
+const add : MathInter = (x : number, y :number) : number => x + y
+const sum : MathInter = (x : number, y :number) : number => x * y
+console.log(add(1,2),sum(2,2));
+
+
 
 
 

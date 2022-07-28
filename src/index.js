@@ -52,8 +52,16 @@ var object = {
 function func(name) {
     return name;
 }
-///// function with union
+///// function parameter string and return number multile return
 function count(name) {
     return name.length;
 }
 console.log("===============>", count("Anas"));
+////// interface
+var userInterface = {
+    id: 21,
+    name: "anas"
+};
+var add = function (x, y) { return x + y; };
+var sum = function (x, y) { return x * y; };
+console.log(add(1, 2), sum(2, 2));
