@@ -93,6 +93,20 @@ function count(name:String ) : Number{
 }
 console.log("===============>",count("Anas"))
 
+////// interface
+
+const userInterface : dataInter = {
+    id : 21,
+    name : "anas"
+}
+
+
+interface dataInter  {
+    id : number,
+    name : string,
+    age ?: number 
+}
+
 
 
 
