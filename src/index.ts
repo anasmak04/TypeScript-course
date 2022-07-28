@@ -52,7 +52,7 @@ enum direction {
     bottom
 }
 
-console.log(direction.up);
+// console.log(direction.up);
 
 // work with objects
 
@@ -80,6 +80,20 @@ const object : obj  =  {
 
 
 // wrok with functions in typescript
+
+//// function type string
+function func(name :string) {
+    return name;
+}
+
+///// function parameter string and return number multile return
+
+function count(name:String ) : Number{
+    return name.length;
+}
+console.log("===============>",count("Anas"))
+
+
 
 
 

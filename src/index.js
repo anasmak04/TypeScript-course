@@ -32,9 +32,28 @@ var union_arr = [44];
 // console.log(union_arr)
 var direction;
 (function (direction) {
-    direction[direction["up"] = 0] = "up";
-    direction[direction["left"] = 1] = "left";
-    direction[direction["right"] = 2] = "right";
-    direction[direction["bottom"] = 3] = "bottom";
+    direction[direction["up"] = 7] = "up";
+    direction[direction["left"] = 8] = "left";
+    direction[direction["right"] = 9] = "right";
+    direction[direction["bottom"] = 10] = "bottom";
 })(direction || (direction = {}));
-console.log(direction.up);
+// console.log(direction.up);
+// work with objects
+var obj = {
+    id: 1,
+    name: "anasmak04"
+};
+var object = {
+    id: 1,
+    lastname: "Anasmak04"
+};
+// wrok with functions in typescript
+//// function type string
+function func(name) {
+    return name;
+}
+///// function with union
+function count(name) {
+    return name.length;
+}
+console.log("===============>", count("Anas"));
