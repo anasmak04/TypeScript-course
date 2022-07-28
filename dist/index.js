@@ -11,4 +11,6 @@ console.log(arr);
 let myMsg = ["hello", "world"];
 let bool = [true, false];
 let all = ["Mak", true];
+let tuple = ["anas", 21, true];
+console.log(tuple);
 //# sourceMappingURL=index.js.map

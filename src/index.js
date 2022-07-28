@@ -14,3 +14,18 @@ var arr;
 arr = [5, 6, 7];
 arr.push(99);
 console.log(arr);
+/// array contain just string
+var myMsg = ["hello", "world"];
+// array contain just boolean
+var bool = [true, false];
+// array contain any data type
+var all = ["Mak", true];
+// array tuple
+var tuple = ["anas", 21, true];
+console.log(tuple);
+// work with unions and Enum
+var ids;
+ids = 5;
+console.log(ids);
+var yy = [44];
+console.log(yy);

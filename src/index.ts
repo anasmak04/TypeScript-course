@@ -31,3 +31,19 @@ let bool : boolean[] = [true,false];
 // array contain any data type
 let all : any[] = ["Mak",true] 
 
+// array tuple
+let tuple : [string,number,boolean] = ["anas",21,true]
+console.log(tuple)
+
+// work with unions and Enum
+
+// union
+let ids : number | string;
+ids = 5
+console.log(ids);
+
+let union_arr : [number | string] = [44];
+console.log(union_arr)
+
+
+
