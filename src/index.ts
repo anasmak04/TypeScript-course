@@ -13,7 +13,7 @@ let Etat : boolean = false;
 let msg : String;
 msg = "Hello"
 
-///////How to declare an arrayb in typescript
+///////How to declare an array in typescript
 
 // array contain just number
 
